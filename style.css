@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#calculator {
+  width: 350px;
+  height: auto;
+  /*border: 5px solid #000;*/
+  margin: 100px auto;
+  text-align: center;
+}
+
+#display {
+  width: 210px;
+  height: 50px;
+  margin: 5px;
+  background: #D3EFFC;
+  box-shadow: 0 6px 10px -3px #689F38;
+  border-radius: 5px;
+  border: 3px solid #6DAEE5;
+  text-align: right;
+  line-height: 50px;
+  letter-spacing: 5px;
+  color: #325069;
+  font: 20px bold;
+  padding: 10px;
+}
+
+.keys {
+  background-color: #2ECC71;
+  border: none;
+  color: #fff;
+  font: 20px bold;
+  border-radius: 5px;
+  box-shadow: 0 6px 10px -3px #689F38;
+  outline: none;
+  cursor: pointer;
+    
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+}
+
+.keys:hover {
+  box-shadow:0 6px 10px -3px #689F38, 0px -25px 10px #27AE60 inset;
+}
+
+.operators {
+  background: #FFCC34;
+}
+
+.operators:hover {
+  box-shadow:0 6px 10px -3px #689F38, 0px -25px 10px #FFD558 inset;
+}
+
+.blue {
+  background: #6DAEE5;
+}
+
+.blue:hover {
+  box-shadow:0 6px 10px -3px #689F38, 0px -25px 10px #87BCE9 inset;
+}
+
+.blue:active, .operators:active, .keys:active {
+  box-shadow: 0 3px 10px -3px #83B05C;
+}
